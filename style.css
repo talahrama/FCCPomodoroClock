@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+body {
+  color: #FFF;
+  background-color: #333
+}
+.timer {
+  text-align:center;
+  font-size:3em;
+  font-family: "Montserrat";
+}
+.time {
+  font-size:1em;
+  font-family:'open sans';
+}
+
+.controls {
+  font-size:2em;
+
+}
+.plus, .minus {
+
+  cursor: pointer;
+}
+
+@keyframes alert {
+    0%   {color: gray; font-size:3em;}
+    10%  {color: red; font-size:4.5em}
+    100% {color: gray; font-size:3em;}
+}
+.alertTimer {
+    animation-name: alert;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+}
